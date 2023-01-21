@@ -1,0 +1,110 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html{
+    padding: 0;
+    margin: 0;
+    
+    background: linear-gradient(to top, rgba(#0a2c81, 0.3), rgba(#c6d0ea, 0.3), rgba(#253c75, 0.3), rgba(#14285d, 0.3));
+    /* border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23cffffe' /%3E%3Cstop offset='25%25' stop-color='%23f9f7d9' /%3E%3Cstop offset='50%25' stop-color='%23fce2ce' /%3E%3Cstop offset='100%25' stop-color='%23ffc1f3' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3'/%3E %3C/svg%3E") 1; */
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fffbf7;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #ffffff!important;
+}
+
+.nav-link{
+    color: #000000!important;
+    width: 150px;
+    height: 60px;
+    background-color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 30px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    text-align: center;
+   line-height: 45px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color:#6db3f5;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color:#b2c7fc;
+    color: #03060f;
+    padding: 2rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 0.5vh;
+    font-family: 'sans-serif',cursive;
+}
+
+.hero-img{
+    height: 68vh;
+    width: 93%;
+    border-style:solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 80px;
+
+
+
+
+}
+
+.headline{
+    font-weight: 900;
+    font-size: 55px;
+   text-shadow: #f30000;
+    
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color:azure;
+    color: #01113c!important;
+    transition: 0.5s;
+
+}
+
+.get-started:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 25px #385395;
+
+}
+
+.bg-light{
+    background-color: #385395 !important;
+}
+
+.get-started{
+    background-color: #385395 !important;
+    color: #ffffff!important;
+}
+
+
+/* here content css starts here  */

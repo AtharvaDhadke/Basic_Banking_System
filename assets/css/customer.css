@@ -1,0 +1,99 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+   
+}
+
+/* navbar css starts here  */
+
+
+.navbar-brand{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #ffffff!important;
+}
+
+.nav-link{
+    color: #000000!important;
+    width: 150px;
+    height: 60px;
+    background-color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 30px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    text-align: center;
+   line-height: 45px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color:#28bcfc;
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+
+}
+
+.white{
+    color: white;
+    font-weight: 400;
+}
+
+.header-color{
+    background-color: #385395;
+   
+    font-weight: 500;
+}
+
+
+.modal{
+    margin-top: 230px;
+}
+
+.table-info{
+    background-color: #385395;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    
+    color: #fff;
+    background-color:#385395;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    border-radius: 5rem;
+}
+
+.btn-info:hover{
+    background-color: rgb(0 70 100)!important;
+    color: white;
+}
+
+.bg-light{
+    background-color: #385395!important;
+}
+
+.btn-danger{
+    color: rgb(6, 27, 85)!important;
+}
+
+.btn-success{
+    color:rgb(6, 27, 85)!important;
+}
+.table-bordered, .table-bordered td{
+    border: 1px solid #000000!important;
+}
+
+.table-bordered th{
+    border: 2px solid #000000!important;
+}
